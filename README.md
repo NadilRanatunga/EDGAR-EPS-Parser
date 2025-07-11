@@ -19,20 +19,20 @@ This Python script extracts Earnings Per Share (EPS) data from SEC EDGAR .html f
  - python EdgarParsingScript.py
 A file dialog window will appear — select the folder that contains your .html EDGAR filings.
 
-4. Output
+# 🖥️ Output
 The script will parse each .html file in the selected folder and generate a ParsedEPS.csv file containing:
 
 filename	EPS
----filing1.html	1.23
----filing2.html	-0.45
----filing3.html	EPS not found
+filing1.html	1.23
+filing2.html	-0.45
+filing3.html	EPS not found
 
-📝 Notes
+# 📝 Notes
 The script looks for .html files only.
 It uses several regex patterns to increase EPS detection accuracy which can be adjusted by the user if need be.
 EPS values flagged as "non-GAAP" or "adjusted" are deprioritized unless no GAAP values are found.
 
-📂 Example Folder Structure
+# 📂 Example Folder Structure
 Copy
 Edit
 your-edgar-folder/
@@ -40,8 +40,8 @@ your-edgar-folder/
 ├── filing2.html
 └── filing3.html
 
-🤝 Contributing
+# 🤝 Contributing
 Contributions are welcome! Feel free to submit issues or pull requests for improvements.
 
-📄 License
+# 📄 License
 MIT License. See LICENSE file for details.
