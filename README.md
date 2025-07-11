@@ -33,9 +33,9 @@ It uses several regex patterns to increase EPS detection accuracy which can be a
 EPS values flagged as "non-GAAP" or "adjusted" are deprioritized unless no GAAP values are found.
 
 # 📂 Example Folder Structure
-Copy
-Edit
+
 your-edgar-folder/
+
 ├── filing1.html
 ├── filing2.html
 └── filing3.html
