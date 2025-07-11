@@ -5,7 +5,7 @@ This Python script extracts Earnings Per Share (EPS) data from SEC EDGAR .html f
  - Extracts EPS from .html EDGAR filings
  - Handles GAAP vs Non-GAAP and basic vs diluted distinctions
  - Automatically detects EPS context (net income/loss)
- -GUI folder picker to select your filings
+ - GUI folder picker to select your filings
  - Outputs results to a clean CSV file
 
 # 🚀 How to Use
