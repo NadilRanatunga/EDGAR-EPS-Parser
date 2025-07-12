@@ -22,9 +22,9 @@ This Python script extracts Earnings Per Share (EPS) data from SEC EDGAR .html f
 # 🖥️ Output
 The script will parse each .html file in the selected folder and generate a ParsedEPS.csv file containing:
 
-filename	EPS
-filing1.html	1.23
-filing2.html	-0.45
+filename	EPS <br />
+filing1.html	1.23 <br />
+filing2.html	-0.45 <br />
 filing3.html	EPS not found
 
 # 📝 Notes
